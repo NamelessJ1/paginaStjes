@@ -1,0 +1,291 @@
+    /* Encabezado */
+body{
+    margin: 0;
+    background-color:  #ffffff;
+    font-family: Georgia;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    background-color:  #947abf ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h2{
+    color: #ffffff;
+    font-family: Georgia;
+    font-weight: initial;
+    font-size: 30px;
+}
+
+.p1{
+    display: flex;
+    align-items: center;
+}
+
+.p1 img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+.p2 a{
+    font-weight: 600;
+    padding-right: 10px;
+    color: #ffffff ;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*stjes*/
+
+
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#producto{
+    float: left;
+}
+
+#pro{
+    display: none;
+    position: absolute;
+    padding: 10px 20px;
+}
+
+
+.prod{
+    height: 43px;
+    width: 100%;
+    background-color: #d3bcf6;
+}
+ 
+#producto {
+    background-color: #d3bcf6;
+    color: rgb(0, 0, 0);
+    font-size: 120%;
+    font-size: 20px;
+    font-family: "Time New Roman";
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#producto a{
+    color: #1d1c1c;
+    font-family: Georgia;
+}
+
+#producto a:hover{
+    background-color: #bc98f3;
+    color: rgb(0, 0, 0);
+}
+
+#producto:hover #pro{
+    background-color: #bc98f3;
+    display: block;
+    position: absolute;
+}
+
+main{
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.recuadro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items{
+    padding: 20px;
+    margin: 10px;
+}
+
+.contenedor h2{
+    color: #1d1c1c;
+}
+
+.recuadro h2{
+    text-align: center;
+    color: #1d1c1c;
+    font-size: 20px;
+}
+
+.recuadro p{
+    text-align: center;
+}
+
+.items:hover{
+    background-color: rgb(230, 230, 230);
+    transform: scale(1.20,1.20);
+}
+
+.contenedor h2{
+    text-align: center;
+}
+
+footer{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+footer .f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+footer .f a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+/* Quienes SOMOS */
+.somos {
+    height: 500px;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.somos p{
+    padding: 100px;
+}
+
+.somos img{
+    height: 300px;
+    width: 350px;
+    padding: 100px;
+}
+
+/* contacto */
+.cont{
+    height: 400px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+/* footer */
+
+.xd p{
+    color: #ffffff;
+    padding: 10px;
+}
+
+.ja{
+    height: 1300px;
+    width: 100%;
+}
+
+.videos{
+    margin-top: -80px;
+    padding-bottom: 50px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b1b1b1;
+    width: 300px;
+    height: auto;
+}
+  
+.items:hover .dropdown-content {
+    display: block;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.d1 h3{
+    padding: 30px;
+}
+
+
+/*Slider*/
+.slaider1{
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedor1{
+    width: 600px;
+}
+
+.slider ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slider{
+    width: 670px;
+    height: 400px;
+}
+
+.slider a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.slider li{
+    position: absolute;
+    opacity: 0;
+}
+
+.slider li:first-child{
+    opacity: 1;
+}
+
+.slider li:target{
+    opacity: 1;
+}
+
+.lista a{
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(173, 173, 173, 0.89);
+    float: left;
+    padding: 5px;
+    margin-left: 65px;
+    border-radius: 10px;
+}
+
+.lista a:hover{
+
+    color: white;
+    background-color: gray;
+}
